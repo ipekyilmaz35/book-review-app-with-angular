@@ -30,3 +30,13 @@ _A simple Angular application to explore books and their reviews. In this app, u
 1. **Clone the repository**:  
    ```bash  
    git clone https://github.com/ipekyilmaz35/book-review-app-with-angular.git
+ 
+---
+
+## 📸 Sample Screen Appearance
+
+  The screenshots of the project:  
+
+![There was a screenshot here](./book-review-app-page-1.png)  
+
+![There was a screenshot here](./book-review-app-page-2.png)  
