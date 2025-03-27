@@ -38,5 +38,4 @@ _A simple Angular application to explore books and their reviews. In this app, u
   The screenshots of the project:  
 
 ![There was a screenshot here](./book-review-app-page-1.png)  
-
 ![There was a screenshot here](./book-review-app-page-2.png)  
