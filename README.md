@@ -1,4 +1,4 @@
-# 📚 Book Review App  
+# 📚 Book Review Project with Angular  
 
 _A simple Angular application to explore books and their reviews. In this app, user can toggle reviews, browse details, and navigate effortlessly._  
 
