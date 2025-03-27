@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { BookListComponent } from "./book-list/book-list.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  imports: [BookListComponent]
 })
 export class AppComponent {
-  title = 'book-review-app';
+  title = 'Book Review App';
 }

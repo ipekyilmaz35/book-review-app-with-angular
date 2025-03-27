@@ -1,0 +1,19 @@
+<div class="book-container">
+    <h2>Book List</h2>
+    <ul>
+      <li *ngFor="let book of books">
+        <h3>{{ book.title }}</h3>
+        <p><strong>Author:</strong> {{ book.author }}</p>
+        <p><strong>Genre:</strong> {{ book.genre }}</p>
+        <p><strong>Published Year:</strong> {{ book.publishedYear }}</p>
+        <p><strong>Page Count:</strong> {{ book.pageCount }} pages</p>
+        <button (click)="toggleReview(book)">Review </button>
+        <div *ngIf="book.isVisible">
+          <p><strong>Review:</strong> {{ book.review }}</p>
+          <p><strong>Rating:</strong> {{ book.rating }} stars</p>
+        </div>
+      </li>
+    </ul>
+    <button *ngIf="showScrollTopButton" (click)="scrollToTop()" class="scroll-to-top">Scroll to Top</button>
+  </div>
+  
